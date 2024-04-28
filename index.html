@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Diciconario</title>
+</head>
+<body>
+    <nav class="menu">
+        <a class="menu__titulo" href="index.html">NahuaLing</a>
+        <div class="menu__items">
+            <a href="#inicio">Inicio</a>
+            <a href="#datos-curiosos">Datos curiosos</a>
+            <a href="diccionario.php">Diccionario</a>
+        </div>
+    </nav>
+    <header class="hero">
+        <div class="hero__contenido">
+            <h1 class="hero__titulo">Conoce, explora y aprende sobre el náhuatl</h1>
+            <div class="hero__texto">
+                <p>
+                    La lengua náhuatl, que ha sido ampliamente utilizada desde el periodo mesoamericano, continúa siendo hablada hoy en día, con casi dos millones de personas que la hablan en nuestro país.
+                </p>
+            </div>
+        </div>
+    </header>
+    <main class="general" id="inicio">
+        <h2 class="general__titulo">Una lengua indigena</h2>
+        <p class="general__contenido">
+            Según algunos expertos, esta lengua tiene sus raíces en el período de esplendor de Teotihuacán, que tuvo lugar en el siglo IV. Posteriormente, los toltecas y tepanecas la propagaron en la región central de nuestro país. A partir del siglo XV, se extendió a lo largo y ancho de los territorios bajo el dominio de la Triple Alianza mexica.
+        </p>
+        <p class="general__contenido">
+            De hecho, su importancia fue tal, que, a pesar de no ser la lengua materna de muchos pueblos, éstos la adoptaron por cuestiones económicas y políticas, convirtiéndola así en la lengua franca de la región, hablada desde México y hasta Centroamérica en el periodo precolombino.
+        </p>
+        <section style="width: 100%;" class="general__grafico">
+            <canvas id="myChart"></canvas>
+        </section>
+        <section class="general__datos" id="datos-curiosos">
+            <h2 class="general__titulo">Datos curiosos:</h2>
+            <p class="general__contenido">Bienvenidos a esta lista de datos curiosos sobre el náhuatl, un idioma ancestral y rico en historia. Descubre el significado detrás de su nombre, entre otros. Exploraremos cómo el náhuatl sigue presente en la vida cotidiana en México y más allá.</p>
+            <ul class="general__contenido">
+                <li>A pesar de los cambios a lo largo de los siglos, hoy en día hay aproximadamente 1.5 millones de hablantes de náhuatl en México.</li>
+                <li>El náhuatl presenta variaciones lingüísticas y culturales dependiendo de la región donde se hable.</li>
+                <li>Muchas palabras náhuatl han sido adoptadas por el español, especialmente nombres de lugares y alimentos como “chocolate”, “tomate” y "aguacate".</li>
+                <li> En algunas regiones de México, se enseña náhuatl en las escuelas como parte de la preservación de la lengua y la cultura indígena.</li>
+                <li>El náhuatl es un idioma completo, no un dialecto de otra lengua.</li>
+                <li>La palabra “náhuatl” significa “sonido claro o agradable”.</li>
+            </ul>
+            <a href="diccionario.php" class="general__enlace"><img src="src/img/diccionario-icono.svg" alt="Icono diccionario" class="general__icono   ">Ir al diccionario</a>
+        </section>
+    </main>
+    <br><br>
+    <footer class="general">
+        
+        Gracias por tu atención. Doy parte de los créditos a mi profesor de programación por darme la idea de llevar a cabo este proyecto.
+    </footer>
+    <script src="src/js/main.js"></script>
+</body>
+</html>

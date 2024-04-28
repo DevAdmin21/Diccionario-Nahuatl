@@ -1,0 +1,54 @@
+.lista{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.diccionario {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-traduccion {
+    margin-top: 20px;
+}
+
+.etiqueta-entrada {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.campo-entrada {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.campo-entrada:disabled {
+    background-color: #eee;
+    color: #888;
+}
+
+@media only screen and (max-width: 600px) {
+    .diccionario {
+        max-width: 90%;
+    }
+}
+.diccionario__boton{
+    background-color: rgb(114, 126, 76);
+    border: none;
+    padding: 0.5rem 0.8rem;
+    color: white;
+    border-radius: 0.5rem;
+}
+.diccionario__boton:hover{
+    cursor: pointer;
+}

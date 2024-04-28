@@ -1,0 +1,117 @@
+:root{
+    --titulo: rgb(105, 61, 58);
+    --azul: rgb(103, 162, 204);
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+canvas {
+    max-width: 100%; /* El canvas ocupa el 100% del ancho disponible */
+    height: auto; /* La altura se ajustará automáticamente para mantener la relación de aspecto */
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    margin-top: 3rem;
+    max-width: 800px;
+    padding: 0 20px; 
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    border-top: 1px solid #ccc;
+}
+.menu{
+    background-color: var(--azul);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem 1rem 1.5rem 1rem;
+}
+@media(min-width:720px){
+    .menu{
+        flex-direction: row;
+    }
+}
+.menu__titulo{
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+@media(min-width:720px){
+    .menu__titulo{
+        text-align: right;
+    }
+}
+.menu__items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+/*Banner*/
+.hero{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../img/portada.jpg');
+    width: 100%;
+    height: 30rem;
+}
+.hero__contenido{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 2rem;
+    color: white;
+}
+.hero__texto {
+    padding: 1rem 2%;
+    width: 90%;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.342);
+    box-sizing: border-box; 
+  }
+  
+  
+/*Contenido general*/
+.general {
+    margin: 0 auto; 
+    max-width: 800px;
+    padding: 0 20px; 
+    box-sizing: border-box;
+}
+.general__titulo{
+    color: var(--titulo);
+}
+.general__contenido{
+    text-align: justify;
+    line-height: 2rem;
+}
+.general__grafico{
+    margin: 0 auto; 
+    max-width: 800px;
+    padding: 0 20px; 
+    box-sizing: border-box;
+}
+.general__enlace{
+    background-color: rgb(69, 46, 40);
+    padding: 0.8rem 0.5rem;
+    border-radius: 0.5rem;
+}
+.general__icono{
+    margin-right: 0.4rem;
+}
